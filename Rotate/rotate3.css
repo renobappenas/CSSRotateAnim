@@ -1,0 +1,19 @@
+/* source : http://jsfiddle.net/9jTCc/3/ */
+
+img {
+    width:80px;
+    height:120px;
+    margin-left:30px;
+    margin-top:50px;
+}
+.photos img:hover {
+    transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -moz-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    z-index: 10;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+}
